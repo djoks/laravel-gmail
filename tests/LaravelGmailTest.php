@@ -1,9 +1,12 @@
 <?php
 
+namespace Tests;
+
 use Dacastro4\LaravelGmail\Services\Message\Mail;
 use Illuminate\Container\Container;
 use Illuminate\Mail\Markdown;
 use Tests\TestCase;
+use Mockery;
 
 class LaravelGmailTest extends TestCase
 {
